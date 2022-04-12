@@ -1,0 +1,21 @@
+.foodType-container {
+    display: flex;
+}
+
+.foodType {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 14rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.foodName {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.foodInfo {
+    padding: 2rem;
+}

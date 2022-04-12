@@ -1,0 +1,300 @@
+.menuCard {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 50rem;
+}
+
+.menuCard-left {
+  background-color: rgb(95, 86, 104);
+  grid-row: 1/6;
+  background-image: linear-gradient(to bottom, transparent 65%, rgba(0,0,0,0.5) 35%),
+  url("../Images/Pizza.png");
+  background-size: cover;
+  border-radius: 25px;
+  flex: 1;
+  min-width: 36rem;
+  display: flex;
+  align-items: self-end;
+  margin-right: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.menuCard-left:hover {
+  background-image: linear-gradient(to bottom, transparent 65%, rgba(13, 54, 190, 0.5) 35%),
+  url("../Images/Pizza.png");
+}
+
+.pizzaContent {
+  margin-bottom: 2rem;
+  padding-top: 34rem;
+}
+
+.pizzaContent > h2 {
+  text-align: left;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #FFFFFF;
+  margin-left: 3rem;
+}
+
+.pizzaContent > p {
+  text-align: left;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  margin-left: 3rem;
+  margin-top: 1.5rem;
+}
+
+.pizzaCardLine {
+  height: 2.69px;
+  background: #FFFFFF;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  width: 90%;
+  margin-left: 3rem;
+  margin-top: 1.5rem;
+}
+
+.pizzaExploreButton {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.pizzaExploreButton > button {
+  height: 4vh;
+  width: 9vw;
+  margin-top: 25px;
+  font-size: 1rem;
+  background: border-box;
+  color: #FFFFFF;
+  border-radius: 20px;
+  border-color: #FFFFFF;
+}
+
+.menuCard-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 37rem;
+  margin-bottom: 1rem;
+}
+
+.menuCard-right-firstRow {
+  display: flex;
+  flex: 1;
+}
+
+.menuCard-right-secondRow {
+  display: flex;
+  flex: 1;
+  margin-top: 1.5rem;
+}
+
+.frenchFries {
+  background-color: rgb(192, 149, 233);
+  background-image: linear-gradient(to bottom, transparent 50%, rgba(255,255,255,0.8) 50%),
+   url("../Images/FrenchFries.png");
+  background-size: cover;
+  border-radius: 25px;
+  background-position: center;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  flex: 1;
+  margin-right: 1.5rem;
+}
+
+.frenchFries:hover {
+  background-image: linear-gradient(to bottom, transparent 50%, rgba(0,0,0,0.5) 50%),
+   url("../Images/FrenchFries.png");
+}
+
+.frenchFries:hover .content h2,
+.frenchFries:hover .content p,
+.frenchFries:hover .content .exploreButton button {
+  color: white;
+}
+
+.frenchFries:hover .content .cardLine {
+  background: #FFFFFF;
+}
+
+.content {
+  grid-row: 2;
+  padding-top: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.content > h2 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #2B2B2B;
+  margin-left: 1.5rem;
+  text-align: left;
+}
+
+.content > p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 1.1rem;
+  color: #000000;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-top: 1.4rem;
+}
+
+.cardLine {
+  height: 0.69px;
+  background: #616161;
+  width: 88%;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+}
+
+.exploreButton > button {
+  width: 5vw;
+  margin-top: 25px;
+  background: border-box;
+  color: black;
+  border-radius: 20px;
+  border-color: #FFFFFF;
+  border: transparent;
+}
+
+.doughNut {
+  background-color: rgb(5, 83, 64);
+  grid-column: 5/6;
+  grid-row: 3;
+  background-image: linear-gradient(to bottom, transparent 50%, rgba(255,255,255,0.8) 50%),
+  url("../Images/DoughNut.png");
+  background-size: cover;
+  border-radius: 25px;
+  background-position: bottom;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  flex: 1;
+}
+
+.doughNut:hover {
+  background-image: linear-gradient(to bottom, transparent 50%, rgba(0,0,0,0.5) 50%),
+   url("../Images/DoughNut.png");
+}
+
+.doughNut:hover .content h2,
+.doughNut:hover .content p,
+.doughNut:hover .content .exploreButton button {
+  color: white;
+}
+
+.doughNut:hover .content .cardLine {
+  background: #FFFFFF;
+}   
+
+.macaroon {
+  background-color: rgb(52, 88, 11);
+  grid-column: 3/4;
+  grid-row: 3;
+  background-image: linear-gradient(to bottom, transparent 50%, rgba(0,0,0,0.5) 50%),
+  url("../Images/Macaroon.png");
+  background-size: cover;
+  border-radius: 25px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  flex: 1;
+  margin-right: 1.5rem;
+}
+
+.macaroonContent {
+  grid-row: 2;
+  padding-top: 1.1rem;
+}
+
+.macaroon:hover {
+  background-image: linear-gradient(to bottom, transparent 50%, rgba(255,255,255,0.8) 50%),
+   url("../Images/Macaroon.png");
+}
+
+.macaroon:hover .macaroonContent h2,
+.macaroon:hover .macaroonContent p,
+.macaroon:hover .macaroonExploreButton button {
+  color: black;
+}
+
+.macaroon:hover .macaroonContent .macaroonCardLine {
+  background: black;
+}      
+
+.macaroonContent > h2 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #FFFFFF;
+  margin-left: 1.5rem;
+  text-align: left;
+}
+
+.macaroonContent > p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 1.1rem;
+  color: #FFFFFF;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-top: 1.4rem;
+}
+
+.macaroonCardLine {
+  height: 0.69px;
+  background: #FFFFFF;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  width: 88%;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+}
+
+.macaroonExploreButton > button {
+  width: 5vw;
+  margin-top: 25px;
+  background: border-box;
+  color: #FFFFFF;
+  border-radius: 20px;
+  border-color: #FFFFFF;
+  border: transparent;
+}
+
+.paneerTikka {
+  background-color: brown;
+  grid-column: 5/6;
+  grid-row: 1;
+  background-image: linear-gradient(to bottom, transparent 50%, rgba(255,255,255,0.8) 50%),
+  url("../Images/PaneerTikka.png");
+  background-size: cover;
+  border-radius: 25px;
+  background-position: bottom;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  flex: 1;
+}
+
+.paneerTikka:hover {
+  background-image: linear-gradient(to bottom, transparent 50%, rgba(0,0,0,0.5) 50%),
+   url("../Images/PaneerTikka.png");
+}
+
+.paneerTikka:hover .content h2,
+.paneerTikka:hover .content p,
+.paneerTikka:hover .content .exploreButton button {
+  color: white;
+}
+
+.paneerTikka:hover .content .cardLine {
+  background: #FFFFFF;
+}        

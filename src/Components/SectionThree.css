@@ -1,0 +1,96 @@
+.sectionThree-container {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    min-width: 36rem;
+}
+
+.sectionThree {
+    background-image: url("../Images//chefImg2.jpeg");
+    min-height: 70rem;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sectionThree-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 37rem;
+    padding-bottom: 14rem;
+    margin-top: 4rem;
+}
+
+.sectionThree-header-bottomLine {
+    width: 3%;
+    background: #342679;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    margin-top: -9px;
+}
+
+.sectionThree-header-heading > h3 {
+    font-size: 2rem;
+    font-weight: 200;
+    padding-bottom: 20px;
+}
+
+.sectionThree-footer-row1-container {
+    display: flex;
+    justify-content: center;
+}
+
+.sectionThree-footer-row1 {
+    display: flex;
+}
+
+.vegetables {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wholeGrains {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sectionThree-footer-row2-container {
+    display: flex;
+    justify-content: center;
+}
+
+.sectionThree-footer-row2 {
+    display: flex;
+}
+
+.fruits {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.healthyProtein {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.foodImage {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    color: white;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
