@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/culinary-kitchen/static/css/main.6c1218f5.css",
+    "main.js": "/culinary-kitchen/static/js/main.ab482244.js",
+    "static/js/787.55ac7cfd.chunk.js": "/culinary-kitchen/static/js/787.55ac7cfd.chunk.js",
+    "static/media/chef3.png": "/culinary-kitchen/static/media/chef3.84e35c7b231f804fd084.png",
+    "static/media/Pizza.png": "/culinary-kitchen/static/media/Pizza.dbf9d99e209d4c975aea.png",
+    "static/media/chef2.png": "/culinary-kitchen/static/media/chef2.22c069751841574cdbe7.png",
+    "static/media/chef1.png": "/culinary-kitchen/static/media/chef1.2eef1f7486222603e822.png",
+    "static/media/PaneerTikka.png": "/culinary-kitchen/static/media/PaneerTikka.630dbfaf26e076ddf76b.png",
+    "static/media/chefImg1.png": "/culinary-kitchen/static/media/chefImg1.d34d07721896f09228a3.png",
+    "static/media/Macaroon.png": "/culinary-kitchen/static/media/Macaroon.43242f640fd3d77a853b.png",
+    "static/media/DoughNut.png": "/culinary-kitchen/static/media/DoughNut.75ae13ecf96d2bfca9f9.png",
+    "static/media/FrenchFries.png": "/culinary-kitchen/static/media/FrenchFries.08075430f48cc38f0341.png",
+    "static/media/chefImg2.jpeg": "/culinary-kitchen/static/media/chefImg2.5637f81b0b53624c135a.jpeg",
+    "index.html": "/culinary-kitchen/index.html",
+    "main.6c1218f5.css.map": "/culinary-kitchen/static/css/main.6c1218f5.css.map",
+    "main.ab482244.js.map": "/culinary-kitchen/static/js/main.ab482244.js.map",
+    "787.55ac7cfd.chunk.js.map": "/culinary-kitchen/static/js/787.55ac7cfd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c1218f5.css",
+    "static/js/main.ab482244.js"
+  ]
+}
